@@ -9,8 +9,11 @@
 
 ### nlp-export
 
-* `/nlp-export original <group> <date>` 导出 默认格式数据  
-  举例: `/nlp-export original 123456 2022-09-12`
+* `/nlp-export original <group> [start] [end]` 导出 原始数据 
+  举例: `/nlp-export original 123456 2022-09-01 2022-10-01`
+
+* `/nlp-export gpt2 <group> [start] [end]` 导出 原始数据
+  举例: `/nlp-export gpt2 123456 2022-09-01 2022-10-01`
 
 ## 安装
 
